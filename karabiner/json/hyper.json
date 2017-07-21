@@ -1,0 +1,31 @@
+{
+  "title": "Left Control",
+  "rules": [
+    {
+      "description": "Change left control key to command+control+option+shift",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_control",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "modifiers": [
+                "left_command",
+                "left_control",
+                "left_option"
+              ]
+            }
+          ] 
+	}
+      ]
+    }
+  ]
+}
