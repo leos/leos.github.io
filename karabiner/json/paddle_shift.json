@@ -1,5 +1,5 @@
 {
-  "title": "Change left and right Shift",
+  "title": "Change left and right shift",
   "rules": [{
     "description": "Change left shift to '(' and right shift to ')' on tap",
     "manipulators":
